@@ -1,0 +1,29 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hristian-carabulea/WeatherApp-Node.js.git"
+  },
+  "keywords": [
+    "weather",
+    "app",
+    "in",
+    "node.js"
+  ],
+  "author": "Hristian Carabulea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hristian-carabulea/WeatherApp-Node.js/issues"
+  },
+  "homepage": "https://github.com/hristian-carabulea/WeatherApp-Node.js#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "request": "^2.88.2"
+  }
+}
