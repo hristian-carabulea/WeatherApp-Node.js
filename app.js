@@ -22,6 +22,7 @@ request({url: locationURL, json:true}, (error, response) => {
     console.log ("Temperature feels like " + response.body.current.feelslike + " Celsius");
     console.log ("Cloud Coverage is " + response.body.current.cloudcover + "%");
     console.log ("Precipitation is " + response.body.current.precip + "%");
+    console.log ("Wind speed is " + response.body.current.wind_speed + " km/h" + " direction " + response.body.current.wind_dir);
   }
 })
 
